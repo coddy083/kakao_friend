@@ -20,7 +20,10 @@ export default function App() {
 
   return (
     <SafeAreaProvider>
-      <SafeAreaView style={{ flex: 1, backgroundColor: "#fff" }} edges={["top", "right", "left"]}>
+      <SafeAreaView
+        style={{ flex: 1, backgroundColor: "#fff" }}
+        edges={["top", "right", "left"]}
+      >
         <View style={{ flex: 1, paddingHorizontal: 10 }}>
           <Header />
           <Margin height={10} />
