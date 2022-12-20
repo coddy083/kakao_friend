@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <SafeAreaProvider>
-      <SafeAreaView style={styles.container} edges={["top", "right", "left"]}>
+      <SafeAreaView style={{ flex: 1, backgroundColor: "#fff" }} edges={["top", "right", "left"]}>
         <View style={{ flex: 1, paddingHorizontal: 10 }}>
           <Header />
           <Margin height={10} />
@@ -48,10 +48,3 @@ export default function App() {
     </SafeAreaProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-  },
-});
